@@ -1,0 +1,189 @@
+{
+    "villa": [
+        {
+            "villaId": "0442b9f0-841d-11ee-b962-0242ac120002",
+            "managerId": "8e357f24-850a-11ee-b9d1-0242ac120002",
+            "image": "https://i.pinimg.com/564x/10/ed/0e/10ed0e4ebbf888a90e49b9794dc3783b.jpg",
+            "name": "Villa Pesona Lestari",
+            "price": 7200000,
+            "bedroomQuantity": 3,
+            "bathroomQuantity": 2,
+            "ratingPoint": 4.1,
+            "totalReviews": 18,
+            "address": "Banten"
+        },
+        {
+            "villaId": "136ad390-841d-11ee-b962-0242ac120002",
+            "managerId": "8e357f24-850a-11ee-b9d1-0242ac120002",
+            "image": "https://i.pinimg.com/564x/e5/cb/e1/e5cbe1e3bc29ed3880831ba46fcb38ee.jpg",
+            "name": "Villa Flamboyan",
+            "price": 4200000,
+            "bedroomQuantity": 3,
+            "bathroomQuantity": 2,
+            "ratingPoint": 3.9,
+            "totalReviews": 8,
+            "address": "Banten"
+        },
+        {
+            "villaId": "136ad6c4-841d-11ee-b962-0242ac120002",
+            "managerId": "8e357f24-850a-11ee-b9d1-0242ac120002",
+            "image": "https://i.pinimg.com/564x/da/90/6b/da906b7280c7423bc562592ca2b22f73.jpg",
+            "name": "Villa Cipatat",
+            "price": 2400000,
+            "bedroomQuantity": 3,
+            "bathroomQuantity": 2,
+            "ratingPoint": 4.2,
+            "totalReviews": 32,
+            "address": "Banten"
+        }
+    ],
+
+    "bookedVilla": [
+        {
+            "orderId": "0442b9f0-841d-11ee-b962-0242ac120002",
+            "image": "https://i.pinimg.com/564x/10/ed/0e/10ed0e4ebbf888a90e49b9794dc3783b.jpg",
+            "name": "Villa Pesona Lestari",
+            "price": 7200000,
+            "status": "Menunggu Pembayaran"
+        },
+        {
+            "orderId": "136ad390-841d-11ee-b962-0242ac120002",
+            "image": "https://i.pinimg.com/564x/e5/cb/e1/e5cbe1e3bc29ed3880831ba46fcb38ee.jpg",
+            "name": "Villa Flamboyan",
+            "price": 4200000,
+            "status": "Selesai"
+        }
+    ],
+
+    "manager": [
+        {
+            "managerId": "8e357f24-850a-11ee-b9d1-0242ac120002",
+            "name": "John Doe",
+            "role": "pengelola",
+            "photo": "https://i.pinimg.com/564x/01/73/a6/0173a6f6b991059b616bdbd1480bede4.jpg"
+        },
+        {
+            "managerId": "8e35824e-850a-11ee-b9d1-0242ac120002",
+            "name": "Darrel Joe",
+            "role": "pengelola",
+            "photo": "https://i.pinimg.com/564x/b1/0d/40/b10d4003f4c8271034e00c2c1a7e5445.jpg"
+        },
+        {
+            "managerId": "8e358398-850a-11ee-b9d1-0242ac120002",
+            "name": "Joe Jonathan",
+            "role": "pengelola",
+            "photo": "https://i.pinimg.com/564x/a9/33/75/a933751539da2f518b0b804444cdc156.jpg"
+        }
+    ],
+
+    "facilityIndoor": [
+        {
+            "id": "d28be45c-8513-11ee-b9d1-0242ac120002",
+            "name": "AC (Air Conditioner)",
+            "icon": "ac"
+        },
+
+        {
+            "id": "d28be68c-8513-11ee-b9d1-0242ac120002",
+            "name": "Dapur untuk memasak",
+            "icon": "kitchen"
+        },
+
+        {
+            "id": "d28be790-8513-11ee-b9d1-0242ac120002",
+            "name": "Wi-Fi",
+            "icon": "wifi"
+        },
+
+        {
+            "id": "d28be88a-8513-11ee-b9d1-0242ac120002",
+            "name": "Ruang tamu",
+            "icon": "lounge"
+        },
+
+        {
+            "id": "d28be970-8513-11ee-b9d1-0242ac120002",
+            "name": "Ruang hiburan",
+            "icon": "entertainment-room"
+        },
+
+        {
+            "id": "d28bea60-8513-11ee-b9d1-0242ac120002",
+            "name": "Ruang makan",
+            "icon": "dinning-room"
+        }
+    ],
+
+    "facilityOutdoor": [
+        {
+            "id": "d28beb50-8513-11ee-b9d1-0242ac120002",
+            "name": "Kolam renang",
+            "icon": "pool"
+        },
+
+        {
+            "id": "d28bef10-8513-11ee-b9d1-0242ac120002",
+            "name": "Garasi parkir",
+            "icon": "garage"
+        },
+
+        {
+            "id": "d28bf000-8513-11ee-b9d1-0242ac120002",
+            "name": "Keamanan 24 Jam",
+            "icon": "security"
+        },
+
+        {
+            "id": "d28bf0e6-8513-11ee-b9d1-0242ac120002",
+            "name": "Taman",
+            "icon": "park"
+        },
+
+        {
+            "id": "d28bf1b8-8513-11ee-b9d1-0242ac120002",
+            "name": "Area BBQ",
+            "icon": "bbq"
+        }
+    ],
+
+    "bedroomSpecification": {
+        "roomSize": {
+            "length": 5,
+            "width": 4
+        },
+
+        "facility": [
+            {
+                "id": "d28bf28a-8513-11ee-b9d1-0242ac120002",
+                "name": "Jendela",
+                "icon": "window"
+            },
+
+            {
+                "id": "d28bf366-8513-11ee-b9d1-0242ac120002",
+                "name": "Lemari Pakaian",
+                "icon": "wardrobe"
+            },
+
+            {
+                "id": "d28bf456-8513-11ee-b9d1-0242ac120002",
+                "name": "Stop kontak",
+                "icon": "electric-socket"
+            },
+
+            {
+                "id": "d28bf53c-8513-11ee-b9d1-0242ac120002",
+                "name": "Single bed",
+                "icon": "single-bed"
+            },
+
+            {
+                "id": "d28bf7f8-8513-11ee-b9d1-0242ac120002",
+                "name": "Double bed",
+                "icon": "single-bed"
+            }
+        ]
+    }
+
+
+}

@@ -1,0 +1,28 @@
+{
+    "orders": [
+        {
+          "orderID": "123456789",
+          "status": "pending",
+          "checkIn": "01 Nov",
+          "checkOut": "05 Nov",
+          "nights": 4,
+          "propertyName": "Hotel ABC"
+        },
+        {
+          "orderID": "987654321",
+          "status": "canceled",
+          "checkIn": "10 Dec",
+          "checkOut": "15 Dec",
+          "nights": 5,
+          "propertyName": "Hotel XYZ"
+        },
+        {
+          "orderID": "131r49124",
+          "status": "accepted",
+          "checkIn": "10 Dec",
+          "checkOut": "15 Dec",
+          "nights": 5,
+          "propertyName": "Hotel XYZ"
+        }
+    ]
+}

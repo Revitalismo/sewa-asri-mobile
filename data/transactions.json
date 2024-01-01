@@ -1,0 +1,31 @@
+{
+    "transactions": [
+      {
+        "transactionID": "T123456789",
+        "status": "pending",
+        "paymentCode": "21314512231",
+        "time": "10:30 AM",
+        "date": "2023-11-01",
+        "paymentMethod": "Credit Card",
+        "userName": "John Doe"
+      },
+      {
+        "transactionID": "T987654321",
+        "status": "success",
+        "paymentCode": "21314512232",
+        "time": "02:45 PM",
+        "date": "2023-12-05",
+        "paymentMethod": "PayPal",
+        "userName": "Jane Smith"
+      },
+      {
+        "transactionID": "T456789123",
+        "status": "failed",
+        "paymentCode": "21314512233",
+        "time": "08:15 AM",
+        "date": "2023-10-15",
+        "paymentMethod": "Bank Transfer",
+        "userName": "David Johnson"
+      }
+    ]
+  }
